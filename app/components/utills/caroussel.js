@@ -9,26 +9,33 @@ export default class caroussel extends Component {
 					<div className="untitled__slide">
 						<div className="untitled__slideBg"></div>
 						<div className="untitled__slideContent">
-							<span>London</span> 
-							<span>Scout</span>
-							<a className="button" href="https://unsplash.com/@scoutthecity" target="/black">Unsplash Profile</a>
+							<span>INGENIEUR EN INFORMATIQUE</span> 
+							<div>
+								<span>&#9733;</span>
+								<span>&#9733;</span>
+								<span>&#9733;</span>
+								<span>&#9733;</span>
+								<span>&#9733;</span>
+							</div>
+							<div className="arrow"></div>						
 						</div>
 					</div>
 					<div className="untitled__slide">
 						<div className="untitled__slideBg"></div>
 						<div className="untitled__slideContent">
 							
-							<span>Vladimir</span> 
-							<span>Kudinov</span>
-							<a className="button" href="https://unsplash.com/@madbyte" target="/black">Unsplash Profile</a>
+							<span>CRÉATION DE SITES WEB</span> 
+							<p>Sites vitrine, logiciels WEB, sites évennementiels</p>
+							<div className="arrow"></div>	
+
 						</div>
 					</div>
 					<div className="untitled__slide">
 						<div className="untitled__slideBg"></div>
 						<div className="untitled__slideContent">
-							<span>Macio</span> 
-							<span>Amorim</span>
-							<a className="button" href="https://unsplash.com/@maicoamorim" target="/black">Unsplash Profile</a>
+							<span>ENSEMBLE, DONNONS VIE À VOS RÊVES</span> 
+							<div className="emojis"> 😉 😉 😉</div>
+							<div className="arrow"></div>	
 						</div>
 					</div>
 				

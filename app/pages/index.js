@@ -18,10 +18,13 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"/>
       </Head>
       <MediaLeft/>
-      <div className="LayoutHorizontal h100 ml50">
-         <div className={style.one}> 
-                <Caroussel/>
-              </div>
+      <div className="body LayoutVertical ml50">
+          <div className={style.one}> 
+              <Caroussel/>
+          </div>
+          <div className={style.two}> 
+
+          </div>
               {/* <Rating/>
               <div className={style.domaineContainer}>
                 <Domaines

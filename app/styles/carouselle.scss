@@ -1,21 +1,23 @@
-$t: 2.5s;
-$e1: cubic-bezier(0.8, 0.00, 0.1, 1);
-$e2: cubic-bezier(0.600, 0.040, 0.980, 0.335);
-$er: linear;
 
-$color: hsl(15,75%,40%);
-$font: 'Abril Fatface', sans-serif;
 
-$slides: 3;
-$images: url("/images/un.jpg") url("/images/deux.jpg") url("/images/trois.jpg");
-
-html, body{
+.untitled{	
+	
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
-}
+	$t: 2.5s;
+	$e1: cubic-bezier(0.8, 0.00, 0.1, 1);
+	$e2: cubic-bezier(0.600, 0.040, 0.980, 0.335);
+	$er: linear;
 
-.untitled{	
+	$color: hsl(15,75%,40%);
+	$font: 'Abril Fatface', sans-serif;
+
+	$slides: 3;
+	$images: url("/images/un.jpg") url("/images/deux.jpg") url("/images/trois.jpg");
+
+
+
 	position: absolute;
 	height: 100%;
 	width: 100%;
@@ -141,54 +143,136 @@ html, body{
 		animation: bgInOut $t*4 -$t*2 infinite; 
 	}
 	&__slideContent{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 		position: absolute;
 		top: 50%;
 		left: 50%;
+		width: 100%;
+		height: 100%;
 		transform: translate3d(-50%,-50%,0);
-		color: white;
+		color: #ffffff;
 		font-family: $font;
 		line-height: 0.8;
 		letter-spacing: -0.025em;
 		z-index: 2;
 		opacity: 1;
-		text-shadow: 0 0 0.5em rgba($color,0.25);
-		mix-blend-mode: lighten;
+		background-color: rgba(68, 68, 68, 0.322);
+
 		span{
+			text-align: center;
 			display: block;
-			font-size: 15vmin;
+			font-size: 5vmin;
+			font-weight: bold;
+			width: 100%;
+			white-space: nowrap;
+			margin: 0 auto;
+		}
+		
+		div{
+			display: flex;
+			width: 200px;
+			margin: 2em auto;
+			color: yellow;
+		}
+
+		p{
+			margin: 2em auto;
+			text-align: center;
+			font-weight: bold;
+			line-height: 3;
+		}
+		.emojis{
+			background-blend-mode:inherit;
+			color: #fff;
+			width: 100%;
+			text-align: center;
+			justify-content: center;
+
 		}
 	}
-}
-.button{
-	font-family:'Roboto Mono', sans-serif;
-	text-decoration: none;
-	font-weight: 800;
-	text-transform: uppercase;
-	font-size: 2vmin;
-	display: inline-block;
-	position: relative;
-	border: 3px solid white;
-	box-shadow: -0.5vmin 0.5vmin 0 rgba(white, 0.5);
-	background: transparent;
-	margin-top: 5vmin;
-	mix-blend-mode: lighten;
-	color: white;
-	padding: 2vmin 2vmin 1.8vmin 2vmin;
-	letter-spacing: 0.1em;
-	text-shadow: none;
-	line-height: 1;
-	transform: translate3d(0.5vmin, -0.5vmin, 0);
-	transition: all 100ms linear;
-	&:hover{ 
-		transform: translate3d(1vmin, -1vmin, 0);
-		box-shadow: -1vmin 1vmin 0 rgba(white, 0.5);
-		background: white;
-		color: black;
+
+	.button{
+		font-family:'Roboto Mono', sans-serif;
+		text-decoration: none;
+		font-weight: 800;
+		text-transform: uppercase;
+		font-size: 2vmin;
+		display: inline-block;
+		position: relative;
+		border: 3px solid white;
+		box-shadow: -0.5vmin 0.5vmin 0 rgba(white, 0.5);
+		background: transparent;
+		margin-top: 5vmin;
+		mix-blend-mode: lighten;
+		color: white;
+		padding: 2vmin 2vmin 1.8vmin 2vmin;
+		letter-spacing: 0.1em;
+		text-shadow: none;
+		line-height: 1;
+		transform: translate3d(0.5vmin, -0.5vmin, 0);
+		transition: all 100ms linear;
+		&:hover{ 
+			transform: translate3d(1vmin, -1vmin, 0);
+			box-shadow: -1vmin 1vmin 0 rgba(white, 0.5);
+			background: white;
+			color: black;
+		}
+		&:active{ 
+			transform: translate3d(0px, 0px, 0);
+			box-shadow: -0px 0px 0 rgba(white, 0.5);
+		}
 	}
-	&:active{ 
-		transform: translate3d(0px, 0px, 0);
-		box-shadow: -0px 0px 0 rgba(white, 0.5);
+
+
+
+	//Flèche vers le bas animée 
+	.arrow,.arrow:before{
+		position: absolute;
+		left: 50%;
+		top: 33em;
 	}
+	
+	.arrow{
+		width: 40px;
+		height: 40px;
+		margin: -20px 0 0 -20px;
+		-webkit-transform: rotate(45deg);
+		border-left: none;
+		border-top: none;
+		border-right: 2px #fff solid;
+		border-bottom: 2px #fff solid;
+	}
+	
+		
+	.arrow:before{
+		content: '';
+		width: 20px;
+		height: 20px;
+		top: 50%;
+		margin: -10px 0 0 -10px;
+		border-left: none;
+		border-top: none;
+		border-right: 1px #fff solid;
+		border-bottom: 1px #fff solid;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-name: arrow;
+	}
+
+
+	@keyframes arrow{
+		0%{
+		opacity: 1;
+		}
+		100%{
+		opacity: 0;
+		transform: translate(-10px, -10px);
+		}
+	}
+
+
 }
 
 
