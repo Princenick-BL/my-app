@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import MediaLeft from '../components/utills/media.left/media.left'
 import Domaines from '../components/utills/domaines/domaines'
+import Caroussel from '../components/utills/caroussel'
 import Rating from '../components/utills/rating/rating'
 import style from '../styles/index.module.scss'
 
@@ -16,11 +17,12 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"/>
       </Head>
-
-      <div className="LayoutHorizontal h100">
-          <MediaLeft/>
-          <div className={style.right +" center"}>
-              <Rating/>
+      <MediaLeft/>
+      <div className="LayoutHorizontal h100 ml50">
+         <div className={style.one}> 
+                <Caroussel/>
+              </div>
+              {/* <Rating/>
               <div className={style.domaineContainer}>
                 <Domaines
                   src="/images/data.svg"
@@ -47,8 +49,7 @@ export default function Home() {
                   }}
                 />
               </div>
-              <div></div>
-          </div>
+              <div></div> */}
       </div>
 
      
