@@ -22,7 +22,7 @@ export default function Home() {
           <div className={style.one}> 
               <Caroussel/>
           </div>
-          <div className={style.two}> 
+          <div id="ancre2" className={style.two}> 
 
           </div>
               {/* <Rating/>

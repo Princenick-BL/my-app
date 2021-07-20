@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Link from "next/link"
 
 export default class caroussel extends Component {
     render() {
@@ -17,7 +18,11 @@ export default class caroussel extends Component {
 								<span>&#9733;</span>
 								<span>&#9733;</span>
 							</div>
-							<div className="arrow"></div>						
+							<Link href="#ancre2">
+								<a>
+									<div className="arrow"></div>						
+								</a>
+							</Link>
 						</div>
 					</div>
 					<div className="untitled__slide">
@@ -26,7 +31,11 @@ export default class caroussel extends Component {
 							
 							<span>CRÉATION DE SITES WEB</span> 
 							<p>Sites vitrine, logiciels WEB, sites évennementiels</p>
-							<div className="arrow"></div>	
+							<Link href="#ancre2">
+								<a>
+									<div className="arrow"></div>						
+								</a>
+							</Link>
 
 						</div>
 					</div>
@@ -35,7 +44,11 @@ export default class caroussel extends Component {
 						<div className="untitled__slideContent">
 							<span>ENSEMBLE, DONNONS VIE À VOS RÊVES</span> 
 							<div className="emojis"> 😉 😉 😉</div>
-							<div className="arrow"></div>	
+							<Link href="#ancre2">
+								<a>
+									<div className="arrow"></div>						
+								</a>
+							</Link>	
 						</div>
 					</div>
 				
