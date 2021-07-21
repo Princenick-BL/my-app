@@ -37,40 +37,37 @@ export default function Home() {
 
                 <div className="competenceLeft">
                     <div className="title">
-                      CRÉATION D'APPLICATION WEB
+                      {"CRÉATION D'APPLICATION WEB"}
                     </div>
                     <div className="description">
-                      De la conception du site web, à la réalisation , en équipe ou seul. 
-                      conseil sur le choix des technologies 
-                    </div>
+                    {"  De la conception du site web, à la réalisation , en équipe ou seul. conseil sur le choix des technologies "}
+                  </div>
                 </div>
 
                 <div className="competenceRight">
                     <div className="title">
-                        SITE WEB RESPONSIVE
+                        {"SITE WEB RESPONSIVE"}
                     </div>
                     <div className="description">
-                        Un site web qui s'adapte à tout type d'interface. 
-                        Que ce soit sur ordinateur portable , telephone mobile ou tablette.
+                      {"  Un site web qui s'adapte à tout type d'interface. Que ce soit sur ordinateur portable , telephone mobile ou tablette."}  
                     </div> 
                 </div>
 
                 <div className="competenceLeft">
                     <div className="title">
-                      INTÉGRATION WEB
+                     {" INTÉGRATION WEB"}
                     </div>
                     <div className="description">
-                        Integration HTML/CSS à partir d'une maquette 
-                        en restant fidèle à cette dernier.
+                      {" Integration HTML/CSS à partir d'une maquette en restant fidèle à cette dernier."}
                     </div>
                 </div>
 
                 <div className="competenceRight">
                     <div className="title">
-                        CONCEPTION GRAPHIQUE
+                        {"CONCEPTION GRAPHIQUE"}
                     </div>
                     <div className="description">
-                        Realisation de logo, flyers, plaquette publicitaire etc ...
+                      {"Realisation de logo, flyers, plaquette publicitaire etc ..."}
                     </div> 
                 </div>
 
