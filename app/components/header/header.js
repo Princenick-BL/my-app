@@ -27,9 +27,9 @@ export default class header extends Component {
                         <div className={style.discoverText}>Découvrez mes compétences de A à Z !!!</div>
                         <div className={style.script}>
                             <div className={style}></div>
-                        {"<"}<div>script</div> {">"}
+                            {"<"}<div>script</div> {">"}
                             <p>Developpeur web full stack</p>
-                        {"</"}<div>script</div> {">"}
+                            {"</"}<div>script</div> {">"}
                         </div>
 
                     </div>
