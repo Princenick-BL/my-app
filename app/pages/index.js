@@ -22,7 +22,7 @@ export default function Home() {
           <meta property="og:type" content="website"/>
           <meta property="og:title" content="INGÉNIEUR INFORMATIQUE"/>
           <meta property="og:description" content="Prenez plaisir à me découvrir à travers mes compétences et mes aptitudes"/>
-          <meta property="og:image" content="./images/preview.png"/>
+          <meta property="og:image" content="/images/preview.png"/>
 
           {/* <!-- Twitter Meta Tags --> */}
           <meta name="twitter:card" content="summary_large_image"/>
@@ -30,7 +30,7 @@ export default function Home() {
           <meta property="twitter:url" content="https://princenickballo.fr/"/>
           <meta name="twitter:title" content="INGÉNIEUR INFORMATIQUE"/>
           <meta name="twitter:description" content="Prenez plaisir à me découvrir à travers mes compétences et mes aptitudes"/>
-          <meta name="twitter:image" content="./images/preview.png"/>
+          <meta name="twitter:image" content="/images/preview.png"/>
 
           {/* <!-- Meta Tags Generated via https://www.opengraph.xyz --> */}
 
