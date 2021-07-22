@@ -6,6 +6,9 @@ export default class caroussel extends Component {
         return (
             
 			<div className="untitled">
+				
+				<div className="info">Ce site web à été  réalisé par mes soins avec Next.js</div>
+
 				<div className="untitled__slides">
 					<div className="untitled__slide">
 						<div className="untitled__slideBg"></div>
