@@ -11,13 +11,18 @@ export default function Home() {
           {/* <!-- HTML Meta Tags --> */}
           <title>INGÉNIEUR INFORMATIQUE</title>
           <meta name="description" content="Prenez plaisir à me découvrir à travers mes compétences et mes aptitudes"/>
+          {
+          /* Lien font googlr */}
+          <link rel="preconnect" href="https://fonts.googleapis.com"/>
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"/>
 
           {/* <!-- Facebook Meta Tags --> */}
           <meta property="og:url" content="https://princenickballo.fr/"/>
           <meta property="og:type" content="website"/>
           <meta property="og:title" content="INGÉNIEUR INFORMATIQUE"/>
           <meta property="og:description" content="Prenez plaisir à me découvrir à travers mes compétences et mes aptitudes"/>
-          <meta property="og:image" content="<%= require('./images/preview.png') %>"/>
+          <meta property="og:image" content="./images/preview.png"/>
 
           {/* <!-- Twitter Meta Tags --> */}
           <meta name="twitter:card" content="summary_large_image"/>
@@ -25,7 +30,7 @@ export default function Home() {
           <meta property="twitter:url" content="https://princenickballo.fr/"/>
           <meta name="twitter:title" content="INGÉNIEUR INFORMATIQUE"/>
           <meta name="twitter:description" content="Prenez plaisir à me découvrir à travers mes compétences et mes aptitudes"/>
-          <meta name="twitter:image" content="<%= require('./images/preview.png') %>"/>
+          <meta name="twitter:image" content="./images/preview.png"/>
 
           {/* <!-- Meta Tags Generated via https://www.opengraph.xyz --> */}
 
