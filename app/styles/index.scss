@@ -20,14 +20,15 @@
         }
 
         .competences{
-            width: 90%;
+            width: 70%;
+            min-width: 200px;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
 
             .competenceLeft,.competenceRight{
                 width: 48%;
-                margin-bottom: 2em;
+                margin-bottom: 1em;
                 @media screen and (max-width:500px){
 
                    width: 100%;
@@ -43,7 +44,7 @@
                     text-transform: uppercase;
                 }
                 .description{
-                    width: 70%;
+                    width: 100%;
                     @media screen and (max-width:500px){
                         width: 100%;
                     }
@@ -51,15 +52,21 @@
             }
 
             .competenceLeft{
-                justify-content: flex-end;
+                display: flex;
+                flex-direction: column;
                 text-align: right;
                 align-items: flex-end;
+                height: 100px;
                 @media screen and (max-width:500px){
                     text-align: center;
                 }
             }
             .competenceRight{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
                 text-align: left;
+                align-items: flex-start;
                 @media screen and (max-width:500px){
                     text-align: center;
                 }
