@@ -2,6 +2,7 @@ import Head from 'next/head'
 import MediaLeft from '../components/utills/media.left/media.left'
 import Domaines from '../components/utills/domaines/domaines'
 import Caroussel from '../components/caroussel'
+import Image from 'next/image'
 
 
 export default function Home() {
@@ -97,10 +98,10 @@ export default function Home() {
 
             <div className="three">
               <div className="container">
-                <img alt="img" src="/images/screen.png"/>
+                <Image className="img" alt="img"  src="/images/screen.png" layout="fill"/>
               </div>
             </div>
-            
+
           </div>        
       </div>
 
