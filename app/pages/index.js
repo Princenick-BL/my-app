@@ -94,6 +94,13 @@ export default function Home() {
               </div>
 
             </div>
+
+            <div className="three">
+              <div className="container">
+                <img alt="img" src="/images/screen.png"/>
+              </div>
+            </div>
+            
           </div>        
       </div>
 

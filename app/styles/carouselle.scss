@@ -1,4 +1,4 @@
-
+@use  "sass:math";
 
 .untitled{	
 	
@@ -21,18 +21,20 @@
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	.info{
-		position: absolute;
-		top: 3em;
-		background-color: rgba(255, 255, 255, 0.549);
-		height: 40px;
-		width: 100%;
-		z-index: 200;
-		text-align: center;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
+	// .info{
+	// 	position: absolute;
+	// 	top: 3em;
+	// 	background-color: rgba(255, 255, 255, 0.549);
+	// 	height: 40px;
+	// 	width: 100%;
+	// 	z-index: 2;
+	// 	padding: 1em;
+	// 	text-align: center;
+	// 	display: flex;
+	// 	justify-content: center;
+	// 	align-items: center;
+		
+	// }
 	@keyframes rotateHue {
 		0%{ filter: hue-rotate(0deg); }
 		20%{ filter: hue-rotate(0deg); }
@@ -45,7 +47,7 @@
 		100%{ filter: hue-rotate(360deg); }
 	}
 	animation: rotateHue infinite $t*$slides*2 linear;
-	animation-delay: $t/4;
+	animation-delay: math.div( $t,4);
 	
 	&__shutters{
 		position: absolute;
@@ -112,7 +114,7 @@
 				pointer-events: auto;
 				z-index: 1;
 			}
-			#{100% / $slides}{
+			#{math.div(100%,$slides)}{
 				opacity: 0;
 				pointer-events: none;
 				z-index: -1;
@@ -276,11 +278,11 @@
 
 	@keyframes arrow{
 		0%{
-		opacity: 1;
+			opacity: 1;
 		}
 		100%{
-		opacity: 0;
-		transform: translate(-10px, -10px);
+			opacity: 0;
+			transform: translate(-10px, -10px);
 		}
 	}
 
