@@ -183,6 +183,7 @@ export default function Home() {
               <h1>MES PROJETS</h1>
               <div className="projets">
 
+              
                 <div className="projet">
                   <div>
                     <div className="img my-app"></div>
@@ -212,7 +213,9 @@ export default function Home() {
                         GA-EILCO
                       </div>
                       <div className="stack ">
-                        <div>React.js {"&"} Node.js</div>
+                        <div>React.js</div>
+                        <div>Next.js </div>
+                        <div>Express.js </div>
                         <div>HTML</div>
                         <div>CSS </div>
                         <div>JavaScript</div>
@@ -255,10 +258,10 @@ export default function Home() {
                             Gestion de cas COVID en entreprise
                           </div>
                           <div className="stack ">
-                            <div>React.js {"&"} Node.js</div>
                             <div>HTML</div>
                             <div>CSS </div>
                             <div>JavaScript</div>
+                            <div>PHP</div>
                             <div> Mysql </div>
                           </div>
                         </div>
@@ -269,6 +272,29 @@ export default function Home() {
                       </div>
 
                   </div>
+                  <div className="projet">
+                  <div>
+                    <div className="img phenix"></div>
+                    <div className="desc">
+                      <div className="title">
+                        A-Recruit ( Confidentiel )
+                      </div>
+                      <div className="stack ">
+                        <div>Next.js </div>
+                        <div>Node.js </div>
+                        <div>Express.js </div>
+                        <div>HTML</div>
+                        <div>SCSS </div>
+                        <div>JavaScript</div>
+                        <div>Postgresql </div>
+                        <div>AWS </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="description">
+                      {"Il s'agit de la création avec une équipe de developpeur , d'un logiciel embarquant plusieurs outils de travails et plusieurs fonctionnalité pour les besoins de l'entreprise."}                    
+                  </div>
+                </div>
               </div>
             </div>
           </div>

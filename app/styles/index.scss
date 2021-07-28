@@ -282,6 +282,7 @@
                 .projet{
                     margin: 1em;
                     width: 370px;
+                    max-height: 300px;
                     background-color: #fff;
                     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
                     border-radius: 10px;      
@@ -290,6 +291,7 @@
                     @media screen and (max-width:500px){
                         flex-direction: column;
                         width: 100%;
+                        max-height: none;
     
                     } 
                     .description{
@@ -329,6 +331,9 @@
                     }
                     .covid{
                         background-image: url("/images/covid.png");
+                    }
+                    .phenix{
+                        background-image: url("/images/phenix.jpg");
                     }
                     .desc{
                         padding: 1em;  
