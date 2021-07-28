@@ -100,14 +100,14 @@ export default function Home() {
           <div className="three">
             <div className="container">
               <div className="head">
-                <h3>DES SITES WEB RESPONSIVES ADAPTÉES À TOUT TYPES D'INTERFACE</h3>
+                <h3>{"DES SITES WEB RESPONSIVES ADAPTÉES À TOUT TYPES D'INTERFACE"}</h3>
               </div>
               <Image className="img" alt="img" src="/images/screen.png" layout="fill" />
             </div>
             
           </div>
           <div className="competencesT">
-              <h1>Mes compétences techniques</h1>
+              <h1>{"Mes compétences techniques"}</h1>
               <div className="competencesTC orientationH ">
                 
                 <div className="items">
@@ -200,9 +200,8 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="description">
-                      Il s'agit de cette page que vous consultez. Je l'ai réalisé avec le framework Next.js 
-                      avec les langages comme le HTML , le CSS , le JavaScript et en utilisant les outils de photoshop
-                    </div>
+                      {"Il s'agit de cette page que vous consultez. Je l'ai réalisé avec le framework Next.js avec les langages comme le HTML , le CSS , le JavaScript et en utilisant les outils de photoshop"}                    
+                  </div>
                 </div>
                   
                 <div className="projet">
@@ -222,7 +221,7 @@ export default function Home() {
                     </div>
                     </div>
                     <div className="description">
-                      A la tête d'une équipe de developpeur , il fallait developpé un outil centralisé, du système de gestion des absences d'une université .
+{"                      A la tête d'une équipe de developpeur , il fallait developpé un outil centralisé, du système de gestion des absences d'une université ."}
                     </div>
                   </div>
 
@@ -245,7 +244,7 @@ export default function Home() {
                     </div>
                     </div>
                     <div className="description">
-                      Il est question ici d'une application permettant de s'authentifier en utilisant son compte google ou facebook.
+{"                      Il est question ici d'une application permettant de s'authentifier en utilisant son compte google ou facebook."}
                     </div>
                   </div>
                   <div className="projet">
@@ -266,7 +265,7 @@ export default function Home() {
                       </div>
                       
                       <div className="description">
-                        C'est une application pour le suivi de l'évolution de la covid-19 au sein d'une entreprise et de la gestion du personnel.
+{"                        C'est une application pour le suivi de l'évolution de la covid-19 au sein d'une entreprise et de la gestion du personnel."}
                       </div>
 
                   </div>
