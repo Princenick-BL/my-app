@@ -93,7 +93,7 @@
             color: #fff;
             text-align: center;
             @media screen and (max-width:770px){
-               height: 55vw;
+               height: 60vw;
 
             }
             .head{
@@ -298,6 +298,10 @@
                         border-left: 1px solid #ccc;
                         padding:1em;
                         text-align: justify;
+                        @media screen and (max-width:500px){
+                            
+                            border-left: none;
+                        }
                     }           
                     .img {
                         border-top-left-radius: 10px;
@@ -306,7 +310,7 @@
                         height: 180px;
                         background-size: contain;
                         background-repeat: no-repeat;
-                        background-position: center;
+                        background-position: left;
                         @media screen and (max-width:500px){
                             
                            width: calc(100vw - 40px );
