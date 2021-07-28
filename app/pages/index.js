@@ -10,6 +10,7 @@ export default function Home() {
     <>
       <Head>
         {/* <!-- HTML Meta Tags --> */}
+        <meta charset="UTF-8"/>
         <title>INGÉNIEUR INFORMATIQUE</title>
         <meta name="description" content="Prenez plaisir à me découvrir à travers mes compétences et mes aptitudes" />
         {
@@ -111,59 +112,59 @@ export default function Home() {
                 
                 <div className="items">
                   <p>HTML</p>
-                  <div class="container">
-                    <div class="skills html">90%</div>
+                  <div className="container">
+                    <div className="skills html">90%</div>
                   </div>
 
                   <p>CSS</p>
-                  <div class="container">
-                    <div class="skills css">90%</div>
+                  <div className="container">
+                    <div className="skills css">90%</div>
                   </div>
 
                   <p>JavaScript</p>
-                  <div class="container">
-                    <div class="skills js">95%</div>
+                  <div className="container">
+                    <div className="skills js">95%</div>
                   </div>
 
                   <p>PHP</p>
-                  <div class="container">
-                    <div class="skills php">60%</div>
+                  <div className="container">
+                    <div className="skills php">60%</div>
                   </div>
                   <p>Python</p>
-                  <div class="container">
-                    <div class="skills python">60%</div>
+                  <div className="container">
+                    <div className="skills python">60%</div>
                   </div>
 
                   <p>C</p>
-                  <div class="container">
-                    <div class="skills next">90%</div>
+                  <div className="container">
+                    <div className="skills next">90%</div>
                   </div>
 
                   <p>Matlab</p>
-                  <div class="container">
-                    <div class="skills matlab">60%</div>
+                  <div className="container">
+                    <div className="skills matlab">60%</div>
                   </div>
                 </div>
 
                 <div className="items">
                   <p>Next.js</p>
-                  <div class="container">
-                    <div class="skills next">80%</div>
+                  <div className="container">
+                    <div className="skills next">80%</div>
                   </div>
 
                   <p>React.js</p>
-                  <div class="container">
-                    <div class="skills react">80%</div>
+                  <div className="container">
+                    <div className="skills react">80%</div>
                   </div>
 
                   <p>Node.js</p>
-                  <div class="container">
-                    <div class="skills node">85%</div>
+                  <div className="container">
+                    <div className="skills node">85%</div>
                   </div>
 
                   <p>Android Studio</p>
-                  <div class="container">
-                    <div class="skills android">75%</div>
+                  <div className="container">
+                    <div className="skills android">75%</div>
                   </div>
 
                   <div className="database">
