@@ -33,7 +33,7 @@ export default class caroussel extends Component {
 						<div className="untitled__slideContent">
 							
 							<span>CRÉATION DE SITES WEB</span> 
-							<p>Sites vitrine, logiciels WEB, sites évennementiels</p>
+							<p>Sites vitrines, logiciels WEB, sites évennementiels</p>
 							<Link href="#ancre2">
 								<a>
 									<div className="arrow"></div>						
