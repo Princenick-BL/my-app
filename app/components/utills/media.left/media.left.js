@@ -11,28 +11,28 @@ export default class MediaLeft extends Component {
                 <Link href="https://github.com/Princenick-BL">
                     <a>
                         <div className={style.media}>
-                            <Image width={25} height={25} src="/icons/github.png" alt="github"/>
+                            <Image width={25} height={25} src="/icons/github.webp" alt="github"/>
                         </div>
                     </a>
                 </Link>
                 <Link href="https://www.linkedin.com/in/prince-nick-ballo">
                     <a>
                         <div className={style.media }>
-                            <Image width={25} height={25} src="/icons/linked.png" alt="linkedIn"/>
+                            <Image width={25} height={25} src="/icons/linked.webp" alt="linkedIn"/>
                         </div>
                     </a>
                 </Link>
                 <Link href="mailto:princenickballo@gmail.com?subject=Prise de contact">
                     <a>
                         <div className={style.media}>
-                            <Image width={25} height={25} src="/icons/mail.png" alt="gmail"/>                         
+                            <Image width={25} height={25} src="/icons/mail.webp" alt="gmail"/>                         
                         </div>
                     </a>
                 </Link>
                 <Link href="tel:+33754509649">
                     <a>
                         <div className={style.media}>
-                            <Image width={25} height={25} src="/icons/tel.png" alt="phone"/>
+                            <Image width={25} height={25} src="/icons/tel.webp" alt="phone"/>
                         </div>
                     </a>
                 </Link>
