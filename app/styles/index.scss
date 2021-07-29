@@ -282,11 +282,12 @@
                 .projet{
                     margin: 1em;
                     width: 370px;
-                    max-height: 300px;
+                   
                     background-color: #fff;
                     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
                     border-radius: 10px;      
                     display:flex ;
+                    flex-direction: column;
                     overflow: hidden;  
                     @media screen and (max-width:500px){
                         flex-direction: column;
@@ -297,13 +298,9 @@
                     .description{
                         width: 100%;
                         height: 100%;
-                        border-left: 1px solid #ccc;
                         padding:1em;
                         text-align: justify;
-                        @media screen and (max-width:500px){
-                            
-                            border-left: none;
-                        }
+                       
                     }           
                     .img {
                         border-top-left-radius: 10px;
@@ -331,6 +328,7 @@
                     }
                     .covid{
                         background-image: url("/images/covid.png");
+                        background-size: cover;
                     }
                     .phenix{
                         background-image: url("/images/phenix.jpg");
@@ -356,14 +354,7 @@
                         }                     
                     }
                 }
-                .projet:hover{
-                    width: 600px;
-                    border-top-right-radius: 10px;
-                    .img{
-                        border-top-right-radius: 0px;
-                    }
-                }
-
+              
             }
         }
     }
