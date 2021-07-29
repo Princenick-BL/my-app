@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         {/* <!-- HTML Meta Tags --> */}
         <meta charSet="UTF-8"/>
-        <title>DEVELOPEUR WEB</title>
+        <title>DEVELOPPEUR WEB</title>
         <meta name="description" content="Prenez plaisir à me découvrir à travers mes compétences et mes aptitudes" />
         {
           /* Lien font googlr */}
@@ -22,7 +22,7 @@ export default function Home() {
         {/* <!-- Facebook Meta Tags --> */}
         <meta property="og:url" content="https://princenickballo.fr/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="DEVELOPEUR WEB" />
+        <meta property="og:title" content="DEVELOPPEUR WEB" />
         <meta property="og:description" content="Prenez plaisir à me découvrir à travers mes compétences et mes aptitudes" />
         <meta property="og:image" content="/images/preview.png" />
 
@@ -30,7 +30,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="princenickballo.fr" />
         <meta property="twitter:url" content="https://princenickballo.fr/" />
-        <meta name="twitter:title" content="DEVELOPEUR WEB" />
+        <meta name="twitter:title" content="DEVELOPPEUR WEB" />
         <meta name="twitter:description" content="Prenez plaisir à me découvrir à travers mes compétences et mes aptitudes" />
         <meta name="twitter:image" content="/images/preview.png" />
 
@@ -62,7 +62,7 @@ export default function Home() {
                   {"CRÉATION D'APPLICATION WEB"}
                 </div>
                 <div className="description">
-                  {"  De la conception du site web, à la réalisation , en équipe ou seul. conseil sur le choix des technologies "}
+                  {"  De la conception du site web, à son déploiement, seul ou en équipe en passant par le choix des technologies "}
                 </div>
               </div>
 
@@ -71,7 +71,7 @@ export default function Home() {
                   {"SITE WEB RESPONSIVE"}
                 </div>
                 <div className="description">
-                  {"  Un site web qui s'adapte à tout type d'interface. Que ce soit sur ordinateur portable , telephone mobile ou tablette."}
+                  {"  Un site web qui s'adapte à tout type d'interface. Que ce soit sur ordinateur portable, telephone mobile ou tablette."}
                 </div>
               </div>
 
@@ -80,7 +80,7 @@ export default function Home() {
                   {" INTÉGRATION WEB"}
                 </div>
                 <div className="description">
-                  {" Integration HTML/CSS à partir d'une maquette en restant fidèle à cette dernier."}
+                  {" Integration HTML/CSS à partir d'une maquette en restant fidèle à cette dernière."}
                 </div>
               </div>
 
@@ -201,7 +201,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="description">
-                      {"Il s'agit de cette page que vous consultez. Je l'ai réalisé avec le framework Next.js avec les langages comme le HTML , le CSS , le JavaScript et en utilisant les outils de photoshop"}                    
+                      {"Il s'agit de cette page que vous consultez. Je l'ai réalisé avec le framework Next.js avec les langages comme le HTML, le CSS, le JavaScript et en utilisant les outils de photoshop."}                    
                   </div>
                 </div>
                   
@@ -224,7 +224,7 @@ export default function Home() {
                     </div>
                     </div>
                     <div className="description">
-{"                      A la tête d'une équipe de developpeur , il fallait developpé un outil centralisé, du système de gestion des absences d'une université ."}
+{"                      A la tête d'une équipe de développeur, il fallait developper un outil centralisé, du système de gestion des absences d'une université ."}
                     </div>
                   </div>
 
@@ -268,7 +268,7 @@ export default function Home() {
                       </div>
                       
                       <div className="description">
-{"                        C'est une application pour le suivi de l'évolution de la covid-19 au sein d'une entreprise et de la gestion du personnel."}
+{"                        C'est une application pour le suivi de l'évolution de la covid-19 au sein d'une entreprise et de la gestion du personnel. Elle a été réalisée en équipe avec la mise en pratique des méthodes agiles."}
                       </div>
 
                   </div>
@@ -292,7 +292,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="description">
-                      {"Il s'agit de la création avec une équipe de developpeur , d'un logiciel embarquant plusieurs outils de travails et plusieurs fonctionnalité pour les besoins de l'entreprise."}                    
+                      {"Il s'agit de la création avec une équipe de developpeur, d'un logiciel embarquant plusieurs outils de travail et plusieurs fonctionnalités pour les besoins de l'entreprise."}                    
                   </div>
                 </div>
               </div>
