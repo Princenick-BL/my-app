@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         {/* <!-- HTML Meta Tags --> */}
         <meta charSet="UTF-8"/>
-        <title>INGÉNIEUR INFORMATIQUE</title>
+        <title>DEVELOPEUR WEB</title>
         <meta name="description" content="Prenez plaisir à me découvrir à travers mes compétences et mes aptitudes" />
         {
           /* Lien font googlr */}
@@ -22,7 +22,7 @@ export default function Home() {
         {/* <!-- Facebook Meta Tags --> */}
         <meta property="og:url" content="https://princenickballo.fr/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="INGÉNIEUR INFORMATIQUE" />
+        <meta property="og:title" content="DEVELOPEUR WEB" />
         <meta property="og:description" content="Prenez plaisir à me découvrir à travers mes compétences et mes aptitudes" />
         <meta property="og:image" content="/images/preview.png" />
 
@@ -30,7 +30,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="princenickballo.fr" />
         <meta property="twitter:url" content="https://princenickballo.fr/" />
-        <meta name="twitter:title" content="INGÉNIEUR INFORMATIQUE" />
+        <meta name="twitter:title" content="DEVELOPEUR WEB" />
         <meta name="twitter:description" content="Prenez plaisir à me découvrir à travers mes compétences et mes aptitudes" />
         <meta name="twitter:image" content="/images/preview.png" />
 

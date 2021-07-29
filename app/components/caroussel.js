@@ -13,7 +13,7 @@ export default class caroussel extends Component {
 					<div className="untitled__slide">
 						<div className="untitled__slideBg"></div>
 						<div className="untitled__slideContent">
-							<span>INGENIEUR EN INFORMATIQUE</span> 
+							<span>ELÈVE INGENIEUR EN INFORMATIQUE </span> 
 							<div>
 								<span>&#9733;</span>
 								<span>&#9733;</span>
