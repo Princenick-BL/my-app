@@ -15,7 +15,7 @@ export default class MediaLeft extends Component {
                         </div>
                     </a>
                 </Link>
-                <Link href="www.linkedin.com/in/prince-nick-ballo">
+                <Link href="https://www.linkedin.com/in/prince-nick-ballo">
                     <a>
                         <div className={style.media }>
                             <Image width={25} height={25} src="/icons/linked.png" alt="linkedIn"/>
