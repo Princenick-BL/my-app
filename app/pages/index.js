@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Head>
         {/* <!-- HTML Meta Tags --> */}
-        <meta charset="UTF-8"/>
+        <meta charSet="UTF-8"/>
         <title>INGÉNIEUR INFORMATIQUE</title>
         <meta name="description" content="Prenez plaisir à me découvrir à travers mes compétences et mes aptitudes" />
         {
