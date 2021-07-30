@@ -226,7 +226,7 @@ export default function Home() {
                         <div> Mysql </div>
                       </div>
                       <div className="linkzone"> 
-                        <a href="#">Lien Protégé ( Projet d'entreprise ) &#x2192;</a>
+                        <a href="#">{"Lien Protégé ( Projet d'entreprise )"} &#x2192;</a>
                       </div>
                     </div>
                     </div>
@@ -303,7 +303,7 @@ export default function Home() {
                         <div>AWS </div>
                       </div>
                       <div className="linkzone"> 
-                        <a href="#">Lien Protégé ( Projet d'entreprise ) &#x2192;</a>
+                        <a href="#">{"Lien Protégé ( Projet d'entreprise )"} &#x2192;</a>
                       </div>
                     </div>
                   </div>
