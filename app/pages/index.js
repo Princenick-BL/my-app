@@ -3,6 +3,7 @@ import MediaLeft from '../components/utills/media.left/media.left'
 import Domaines from '../components/utills/domaines/domaines'
 import Caroussel from '../components/caroussel'
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 export default function Home() {
@@ -100,7 +101,7 @@ export default function Home() {
           <div className="three">
             <div className="container">
               <div className="head">
-                <h3>{"DES SITES WEB RESPONSIVES ADAPTÉES À TOUT TYPES D'INTERFACE"}</h3>
+                <h3>{"DES SITES WEB RESPONSIVES ADAPTÉS À TOUT TYPE    D'INTERFACE"}</h3>
               </div>
               <Image className="img" alt="img" src="/images/screen.png" layout="fill" />
             </div>
@@ -196,7 +197,10 @@ export default function Home() {
                         <div>HTML</div>
                         <div>SCSS </div>
                         <div>JavaScript</div>
-                      
+
+                      </div>
+                      <div className="linkzone"> 
+                        <a href="https://github.com/Princenick-BL/my-app">Lien GitHub &#x2192;</a>
                       </div>
                     </div>
                   </div>
@@ -221,6 +225,9 @@ export default function Home() {
                         <div>JavaScript</div>
                         <div> Mysql </div>
                       </div>
+                      <div className="linkzone"> 
+                        <a href="#">Lien Protégé ( Projet d'entreprise ) &#x2192;</a>
+                      </div>
                     </div>
                     </div>
                     <div className="description">
@@ -244,6 +251,9 @@ export default function Home() {
                         <div> Google auth api </div>
                         <div> Facebook auth api </div>
                       </div>
+                      <div className="linkzone"> 
+                        <a href="https://github.com/Princenick-BL/login-signin-app">Lien GitHub &#x2192;</a>
+                      </div>
                     </div>
                     </div>
                     <div className="description">
@@ -263,6 +273,9 @@ export default function Home() {
                             <div>JavaScript</div>
                             <div>PHP</div>
                             <div> Mysql </div>
+                          </div>
+                          <div className="linkzone"> 
+                            <a href="https://github.com/Princenick-BL/login-signin-app">Lien GitHub &#x2192;</a>
                           </div>
                         </div>
                       </div>
@@ -289,11 +302,15 @@ export default function Home() {
                         <div>Postgresql </div>
                         <div>AWS </div>
                       </div>
+                      <div className="linkzone"> 
+                        <a href="#">Lien Protégé ( Projet d'entreprise ) &#x2192;</a>
+                      </div>
                     </div>
                   </div>
                   <div className="description">
                       {"Il s'agit de la création avec une équipe de developpeur, d'un logiciel embarquant plusieurs outils de travail et plusieurs fonctionnalités pour les besoins de l'entreprise."}                    
                   </div>
+                   
                 </div>
               </div>
             </div>
