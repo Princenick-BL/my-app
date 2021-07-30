@@ -102,7 +102,7 @@ export default function Home() {
               <div className="head">
                 <h3>{"DES SITES WEB RESPONSIVES ADAPTÉES À TOUT TYPES D'INTERFACE"}</h3>
               </div>
-              <Image className="img" alt="img" src="/images/screen.jpeg" layout="fill" />
+              <Image className="img" alt="img" src="/images/screen-2.png" layout="fill" />
             </div>
             
           </div>
