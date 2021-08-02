@@ -320,6 +320,10 @@
                         background-image: url("/images/ga-eilco.png");
 
                     }
+                    .mon-cv{
+                        background-image: url("/images/cv.png");
+
+                    }
                     .auth{
                         background-image: url("/images/auth.png");
                     }
@@ -361,6 +365,20 @@
     }
     .desable{
         pointer-events: none;
+    }
+    .lastbtn{
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        padding: 3em;
+        background-color: #fff;
+        .btn{
+            background-color: #f08800;
+            width: fit-content;
+            margin: 0 auto;
+            padding: 1em;
+            cursor: pointer;
+        }
     }
 }
 

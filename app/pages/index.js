@@ -188,7 +188,33 @@ export default function Home() {
             <div className="portfolio">
               <h1>MES PROJETS</h1>
               <div className="projets">
-
+                <div className="projet">
+                  <div>
+                    <div className="img phenix"></div>
+                    <div className="desc">
+                      <div className="title">
+                        A-Recruit ( Confidentiel )
+                      </div>
+                      <div className="stack ">
+                        <div>Next.js </div>
+                        <div>Node.js </div>
+                        <div>Express.js </div>
+                        <div>HTML</div>
+                        <div>SCSS </div>
+                        <div>JavaScript</div>
+                        <div>Postgresql </div>
+                        <div>AWS </div>
+                      </div>
+                      <div className="linkzone"> 
+                        <a href="#"  className="desable">{"Lien Protégé ( Projet d'entreprise )"} &#x2192;</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="description">
+                      {"Il s'agit de la création avec une équipe de developpeur, d'un logiciel embarquant plusieurs outils de travail et plusieurs fonctionnalités pour les besoins de l'entreprise."}                    
+                  </div>
+                   
+                </div>
               
                 <div className="projet">
                   <div>
@@ -244,6 +270,36 @@ export default function Home() {
                       "du système de gestion des absences d'une université ."}
                     </div>
                   </div>
+
+                  <div className="projet">
+                    <div>
+                      <div className="img  mon-cv"></div>
+                      <div className="desc">
+                        <div className="title">
+                          Mes début avec React.js ( CV React)
+                        </div>
+                        <div className="stack ">
+                          <div>React.js</div>
+                          <div>HTML</div>
+                          <div>CSS </div>
+                          <div>JavaScript</div>
+                        </div>
+                        <div className="linkzone"> 
+                        <a href="https://github.com/Princenick-BL/curriculum-vitae">Lien GitHub &#x2192;</a>
+                        <br></br>
+                        <br></br>
+                          <Link href="https://princenick-bl.github.io/curiculum-vitae">
+                            <a>{"Lien vers le site"} &#x2192;</a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="description">
+                      {"Prise en main de React.js avec la réalisation ,"+
+                        " d'un cv web."}
+                    </div>
+                  </div>
+
 
                   <div className="projet">
                   <div>
@@ -315,38 +371,18 @@ export default function Home() {
                       </div>
 
                   </div>
-                  <div className="projet">
-                  <div>
-                    <div className="img phenix"></div>
-                    <div className="desc">
-                      <div className="title">
-                        A-Recruit ( Confidentiel )
-                      </div>
-                      <div className="stack ">
-                        <div>Next.js </div>
-                        <div>Node.js </div>
-                        <div>Express.js </div>
-                        <div>HTML</div>
-                        <div>SCSS </div>
-                        <div>JavaScript</div>
-                        <div>Postgresql </div>
-                        <div>AWS </div>
-                      </div>
-                      <div className="linkzone"> 
-                        <a href="#"  className="desable">{"Lien Protégé ( Projet d'entreprise )"} &#x2192;</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="description">
-                      {"Il s'agit de la création avec une équipe de developpeur, d'un logiciel embarquant plusieurs outils de travail et plusieurs fonctionnalités pour les besoins de l'entreprise."}                    
-                  </div>
-                   
-                </div>
+                  
               </div>
+
+              
             </div>
           </div>
 
-
+          <div className="lastbtn">
+            <div className="btn">
+              CONSULTER MON CV COMPLET
+            </div>
+          </div>
 
         </div>
 
@@ -355,32 +391,3 @@ export default function Home() {
     </>
   )
 }
-
-{/* <Rating/>
-              <div className={style.domaineContainer}>
-                <Domaines
-                  src="/images/data.svg"
-                  title1="DATA"
-                  title2="ANALYSE"
-                  style={{
-                    color:'#5AAAE7'
-                  }}
-                />
-                <Domaines
-                  src="/images/mobile.svg"
-                  title1="DEVELOPPEMENT"
-                  title2="MOBILE"
-                  style={{
-                    color:'#F948B4'
-                  }}
-                />
-                <Domaines
-                  src="/images/web.svg"
-                  title1="DEVELOPPEMENT"
-                  title2="WEB"
-                  style={{
-                    color:'#615DF9'
-                  }}
-                />
-              </div>
-              <div></div> */}
