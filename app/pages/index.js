@@ -1,12 +1,17 @@
+import React,{useState} from 'react'
 import Head from 'next/head'
 import MediaLeft from '../components/utills/media.left/media.left'
 import Domaines from '../components/utills/domaines/domaines'
 import Caroussel from '../components/caroussel'
 import Image from 'next/image'
 import Link from 'next/link'
+import Popup from '../components/utills/popup/popup'
 
 
 export default function Home() {
+
+  const [show_auth,setShowAuth]=useState(false)
+
   return (
     <>
       <Head>
@@ -205,7 +210,10 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="description">
-                      {"Il s'agit de cette page que vous consultez. Je l'ai réalisé avec le framework Next.js avec les langages comme le HTML, le CSS, le JavaScript et en utilisant les outils de photoshop."}                    
+                      {"Il s'agit de cette page que vous consultez."+
+                      "Je l'ai réalisé avec le framework Next.js avec"+
+                      " les langages comme le HTML, le CSS, le JavaScript"+
+                      " et en utilisant les outils de photoshop."}                    
                   </div>
                 </div>
                   
@@ -226,12 +234,14 @@ export default function Home() {
                         <div> Mysql </div>
                       </div>
                       <div className="linkzone"> 
-                        <a href="#">{"Lien Protégé ( Projet d'entreprise )"} &#x2192;</a>
+                        <a href="#" className="desable">{"Lien Protégé ( Projet d'entreprise )"} &#x2192;</a>
                       </div>
                     </div>
                     </div>
                     <div className="description">
-{"                      A la tête d'une équipe de développeur, il fallait developper un outil centralisé, du système de gestion des absences d'une université ."}
+                      {"A la tête d'une équipe de développeur,"+
+                      "il fallait developper un outil centralisé,"+
+                      "du système de gestion des absences d'une université ."}
                     </div>
                   </div>
 
@@ -253,11 +263,26 @@ export default function Home() {
                       </div>
                       <div className="linkzone"> 
                         <a href="https://github.com/Princenick-BL/login-signin-app">Lien GitHub &#x2192;</a>
+                        <br></br>
+                        <br></br>
+                        {show_auth && 
+                          <>
+                            <Popup
+                              show_hide={show_auth}
+                              callback={(e)=>{setShowAuth(false)}}
+                            >
+                              <iframe className="video" src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6784459821665148928?compact=1" allowfullscreen="" title="Post intégré" width="504" height="284" frameborder="0"></iframe>
+                            </Popup>
+                          </>
+                        }
+                        <a href="#" onClick={(e)=>{e.preventDefault();setShowAuth(true)}}>Lien de présentation &#x2192;</a>
                       </div>
                     </div>
                     </div>
                     <div className="description">
-{"                      Il est question ici d'une application permettant de s'authentifier en utilisant son compte google ou facebook."}
+                      {"Il est question ici d'une application"+
+                      " permettant de s'authentifier en utilisant"+
+                      " son compte google ou facebook."}
                     </div>
                   </div>
                   <div className="projet">
@@ -276,12 +301,17 @@ export default function Home() {
                           </div>
                           <div className="linkzone"> 
                             <a href="https://github.com/Princenick-BL/login-signin-app">Lien GitHub &#x2192;</a>
+                            
                           </div>
                         </div>
                       </div>
                       
                       <div className="description">
-{"                        C'est une application pour le suivi de l'évolution de la covid-19 au sein d'une entreprise et de la gestion du personnel. Elle a été réalisée en équipe avec la mise en pratique des méthodes agiles."}
+                        {"C'est une application pour le suivi de "+
+                        "l'évolution de la covid-19 au sein d'une "+
+                        "entreprise et de la gestion du personnel. "+
+                        "Elle a été réalisée en équipe avec la mise "+
+                        "en pratique des méthodes agiles."}
                       </div>
 
                   </div>
@@ -303,7 +333,7 @@ export default function Home() {
                         <div>AWS </div>
                       </div>
                       <div className="linkzone"> 
-                        <a href="#">{"Lien Protégé ( Projet d'entreprise )"} &#x2192;</a>
+                        <a href="#"  className="desable">{"Lien Protégé ( Projet d'entreprise )"} &#x2192;</a>
                       </div>
                     </div>
                   </div>
