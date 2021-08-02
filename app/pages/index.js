@@ -271,7 +271,7 @@ export default function Home() {
                               show_hide={show_auth}
                               callback={(e)=>{setShowAuth(false)}}
                             >
-                              <iframe className="video" src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6784459821665148928?compact=1" allowfullscreen="" title="Post intégré" width="504" height="284" frameborder="0"></iframe>
+                              <iframe className="video" src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6784459821665148928?compact=1" allowFullScreen="" title="Post intégré" width="504" height="284" frameBorder="0"></iframe>
                             </Popup>
                           </>
                         }
