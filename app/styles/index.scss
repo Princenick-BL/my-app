@@ -322,14 +322,17 @@
                     }
                     .mon-cv{
                         background-image: url("/images/cv.png");
-
+                        background-position: right;
+                        background-size: cover;
                     }
                     .auth{
                         background-image: url("/images/auth.png");
+                        background-position: right;
+                        background-size: cover;
                     }
                     .covid{
                         background-image: url("/images/covid.png");
-                        background-size: cover;
+                        background-position: left;
                     }
                     .phenix{
                         background-image: url("/images/phenix.jpg");
