@@ -170,7 +170,7 @@
 
                 } /* Blue */
                 .js {
-                    width: 90%; 
+                    width: 95%; 
                     background-color: #f44336;
                     border-bottom-left-radius: 5px;
 
@@ -332,7 +332,9 @@
                     }
                     .covid{
                         background-image: url("/images/covid.png");
-                        background-position: left;
+                        background-position: right;
+                        background-size: cover;
+
                     }
                     .phenix{
                         background-image: url("/images/phenix.jpg");
@@ -375,68 +377,15 @@
         text-align: center;
         padding: 3em;
         background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .btn{
             background-color: #f08800;
             width: fit-content;
-            margin: 0 auto;
             padding: 1em;
             cursor: pointer;
+            margin-right: 40px;
         }
     }
 }
-
-/*
-.right{
-    position: relative;
-    left: 50px;
-    height: 100vh;
-    min-height: 100%;
-    width: 100%;
-    background-image: url("/images/barniere.jpg");
-    background-repeat: no-repeat;
-    background-clip: content-box;
-    background-size:cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.domaineContainer{
-    margin: 0 auto;
-    width: 80%;
-    height: 30em;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-}
-
-
-@media screen and (max-width:500px){
-
-    .domaineContainer{
-
-        width: 90%;
-        height: 100%;
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-    
-    }
-
-    .competences{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        .competenceLeft,.competenceRight{
-            width: 100%;
-            .title{
-            
-            }
-            .description{
-                width: 100%;
-            }
-        }
-    }
-}
-*/

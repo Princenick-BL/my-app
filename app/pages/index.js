@@ -148,7 +148,7 @@ export default function Home() {
 
                   <p>Matlab</p>
                   <div className="container">
-                    <div className="skills matlab">60%</div>
+                    <div className="skills matlab">90%</div>
                   </div>
                 </div>
 
@@ -379,9 +379,9 @@ export default function Home() {
           </div>
 
           <div className="lastbtn">
-            <div className="btn">
-              CONSULTER MON CV COMPLET
-            </div>
+              <a className="btn" href="https://www.canva.com/design/DAEmEjXbW4o/gCRThwtadt3lfBB8eG-ypg/view?website#1">
+                  CONSULTER MON CV COMPLET
+              </a>
           </div>
 
         </div>
